@@ -14,8 +14,8 @@ public class VideoViewHolder extends RecyclerView.ViewHolder{
     public final View mListItemView; // TODO: remove
     public final TextView mTitle;
     public final ImageView mCover;
-    public final TextView mVisibilityPercentsTop;
-    public final TextView mVisibilityPercentsBottom;
+//    public final TextView mVisibilityPercentsTop;
+//    public final TextView mVisibilityPercentsBottom;
 
     public VideoViewHolder(View view) {
         super(view);
@@ -23,7 +23,7 @@ public class VideoViewHolder extends RecyclerView.ViewHolder{
         mPlayer = (VideoPlayerView) view.findViewById(R.id.player);
         mTitle = (TextView) view.findViewById(R.id.title);
         mCover = (ImageView) view.findViewById(R.id.cover);
-        mVisibilityPercentsTop = (TextView) view.findViewById(R.id.visibility_percents_top);
-        mVisibilityPercentsBottom = (TextView) view.findViewById(R.id.visibility_percents_bottom);
+//        mVisibilityPercentsTop = (TextView) view.findViewById(R.id.visibility_percents_top);
+//        mVisibilityPercentsBottom = (TextView) view.findViewById(R.id.visibility_percents_bottom);
     }
 }
